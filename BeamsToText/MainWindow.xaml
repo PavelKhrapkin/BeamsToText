@@ -5,8 +5,10 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:BeamsToText"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="150" Width="350">
     <Grid>
-        
+        <Button Content="Save Selected" HorizontalAlignment="Left" Height="24" Margin="30,30,0,0" VerticalAlignment="Top" Width="100" Click="Button_SaveSelected_Click"/>
+        <Button Content="Save All" HorizontalAlignment="Left" Height="24" Margin="179,30,0,0" VerticalAlignment="Top" Width="100" Click="Button_SaveAll_Click"/>
+
     </Grid>
 </Window>
